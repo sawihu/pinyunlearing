@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>品妘學習歷程檔案</title>
 
+<style>
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont;
+  background: #f6f1ea;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #c9895c;
+  color: white;
+  font-size: 16px;
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<h1>品妘學習歷程檔案</h1>
+
+<div class="card">
+  <h3>基本資料</h3>
+  <label>姓名</label>
+  <input placeholder="輸入姓名">
+
+  <label>年齡</label>
+  <input placeholder="輸入年齡">
+
+  <label>學習年資</label>
+  <input placeholder="輸入年資">
+
+  <button onclick="alert('已儲存')">儲存</button>
+</div>
+
+<div class="card">
+  <h3>學習紀錄</h3>
+  <textarea rows="4" placeholder="輸入今天學了什麼"></textarea>
+  <button onclick="alert('已新增')">新增紀錄</button>
+</div>
+
+</div>
+</body>
+</html>
